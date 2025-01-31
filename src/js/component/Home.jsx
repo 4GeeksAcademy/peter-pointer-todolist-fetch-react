@@ -4,6 +4,7 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import { ExampleFetchComplex } from "./ExampleFetchComplex";
 import { TodoListFetch } from "./TodoListFetch";
+import { Footer } from "./Footer";
 
 //create your first component
 const Home = () => {
@@ -12,11 +13,7 @@ const Home = () => {
 			{/* <h1 className="text-center mt-5">ToDo List with Fetch</h1> */}
 			{/* <ExampleFetchComplex/> */}
 			<TodoListFetch/>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
+			<Footer/>
 		</div>
 	);
 };

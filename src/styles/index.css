@@ -1,3 +1,11 @@
+li > span {
+    visibility: hidden;
+    cursor: pointer;
+}
+
+li:hover > span {
+    visibility: visible;
+}
 
 /* 
 

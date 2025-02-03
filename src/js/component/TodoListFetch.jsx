@@ -44,7 +44,6 @@ export const TodoListFetch = () => {
             console.log("Error", response.status, response.statusText)
             return
         }
-        //const data = await response.json()
         getTodos()
     }
 
@@ -68,8 +67,7 @@ export const TodoListFetch = () => {
         if (!response.ok) {
             console.log ("Error:", response.status, response.statusText);
             return;
-        }
-        
+        }        
         getTodos();
     }
 
